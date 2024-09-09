@@ -1,0 +1,41 @@
+.analog {
+	background-image: url(../../img/analog-bg-img.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.analog__container {
+	--container-width: 1160px;
+}
+
+.analog__content {
+	display: flex;
+	padding-top: 520px;
+	padding-bottom: 30px;
+	flex-direction: column;
+}
+
+.analog__title {
+	width: 333px;
+	margin: 0;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 158%;
+	color: #fff;
+}
+
+.analog__descr {
+	margin: 0;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 150%;
+	color: #fff;
+	text-decoration: none;
+}
+
+.analog-link {
+	width: 85px;
+	text-decoration: none;
+}

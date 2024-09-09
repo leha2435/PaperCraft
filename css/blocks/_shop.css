@@ -1,0 +1,60 @@
+/* GLOBAL */
+.shop {
+	padding: 110px 110px;
+	background-color: #f8f6f2;
+}
+
+.shop__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 80px;
+}
+
+/* CONTENT */
+.shop__title {
+	margin: 0;
+	width: 630px;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 120%;
+	text-align: center;
+	color: #1a1a1a;
+}
+
+.shop__wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+
+.shop__men-woman {
+	display: flex;
+	justify-content: space-between;
+}
+
+.shop__item {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 7px;
+	transition: 0.2s ease;
+}
+
+.shop__text {
+	width: 100%;
+	margin: 0;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #1a1a1a;
+	border-bottom: 1px solid #1a1a1a;
+	transition: 0.3s ease;
+}
+
+.shop__text:hover {
+	color: #626262;
+	border-bottom: 1px solid #626262;
+}

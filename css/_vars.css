@@ -1,0 +1,13 @@
+:root {
+	--dark-primary: #1a1a1a;
+	--primary: #ecd3ca;
+	--light-grey: #a8a8a8;
+	--light-red: #ff3451;
+	--light-brown: #7e6e45;
+
+	--font-family: "Roboto", sans-serif;
+
+	--gap: 20px;
+	--container-width: 1440px;
+	--container-offset: 15px;
+}

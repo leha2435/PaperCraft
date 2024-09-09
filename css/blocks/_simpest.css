@@ -1,0 +1,68 @@
+/* GLOBAL */
+.simpest__analog {
+	background-image: url(../../img/simpest-analog-bg-img.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.simpest__container {
+	--container-width: 1160px;
+	background-image: url(../../img/snipped-png.png);
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	background-position: 100% 10%;
+}
+
+/* CONTENT */
+.simpest__content {
+	display: flex;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 15px;
+}
+
+.simpest__title {
+	width: 360px;
+	margin: 0;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 154%;
+	color: #f7f7f7;
+}
+
+.simpest__descr {
+	margin: 0;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 150%;
+	color: #f7f7f7;
+	border-bottom: 1px solid #f7f7f7;
+	transition: 0.3s ease;
+}
+
+.simpest__descr:hover {
+	color: #c3c2c2;
+	border-bottom: 1px solid #c3c2c2;
+}
+
+.simpest__btn {
+	padding: 19px 60px 17px 60px;
+	background-color: #7e6e45;
+	color: white;
+	border: 1px solid #7e6e45;
+	transition: 0.3s ease;
+}
+
+.simpest__btn:hover {
+	background-color: white;
+	color: #7e6e45;
+	border: 1px solid #7e6e45;
+}
+
+.simpest__btn:active {
+	background-color: #c3c2c2;
+}

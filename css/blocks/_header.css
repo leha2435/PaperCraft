@@ -1,0 +1,102 @@
+/* GLOBAL */
+.header {
+	padding: 25px;
+}
+
+.header__container {
+	--container-wrapper: 1160px;
+}
+
+.header__content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* HEADER LOGO */
+.header__logo {
+	display: flex;
+	align-items: center;
+	gap: 26px;
+}
+
+.header__logo-text {
+	margin: 0;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 37px;
+	line-height: 57%;
+	color: rgba(26, 26, 26, 0.71);
+	pointer-events: none;
+}
+
+/* HEADER LINKS-list */
+.header__link {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 127%;
+	color: #2a2a2a;
+	text-decoration: none;
+}
+
+.header__btn-link {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 127%;
+	color: #2a2a2a;
+	text-decoration: none;
+}
+
+.header__list {
+	display: flex;
+	gap: 32px;
+}
+
+.header__btn-list {
+	display: flex;
+	gap: 32px;
+}
+
+.header__item {
+	position: relative;
+}
+
+.header__item:hover:after,
+.header__item:focus:after {
+	width: 100%;
+	left: 0;
+}
+
+.header__item::after {
+	display: block;
+	position: absolute;
+	left: 50%;
+	width: 0; /*задаём длинну линии до наведения курсора*/
+	height: 1px; /*задаём ширину линии*/
+	background-color: #2a2a2a; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease, left 0.3s ease; /*задаём время анимации*/
+}
+
+.header__btn-item {
+	position: relative;
+}
+
+.header__btn-item:hover:after,
+.header__btn-item:focus:after {
+	width: 100%;
+	left: 0;
+}
+
+.header__btn-item::after {
+	display: block;
+	position: absolute;
+	left: 50%;
+	width: 0; /*задаём длинну линии до наведения курсора*/
+	height: 0.5px; /*задаём ширину линии*/
+	background-color: #2a2a2a; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease, left 0.3s ease; /*задаём время анимации*/
+}

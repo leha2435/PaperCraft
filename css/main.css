@@ -1,0 +1,16 @@
+/* GLOBAL */
+@import url("_settings.css");
+@import url("_normalise.css");
+@import url("_fonts.css");
+@import url("_vars.css");
+
+/* BLOCKS */
+@import url("./blocks/_header.css");
+@import url("./blocks/_analog.css");
+@import url("./blocks/_catalog.css");
+@import url("./blocks/_simpest.css");
+@import url("./blocks/_discbound.css");
+@import url("./blocks/_shop.css");
+@import url("./blocks/_founder.css");
+@import url("./blocks/_stay-form.css");
+@import url("./blocks/_footer.css");

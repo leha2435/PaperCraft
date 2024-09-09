@@ -1,0 +1,163 @@
+/* GLOBAL */
+.catalog {
+	padding-top: 40px;
+	padding-bottom: 70px;
+	--container-width: 1440px;
+}
+
+/* CATALOG LIST-ITEM-LINK */
+
+.catalog__content-item {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.catalog__item {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	border: 1px dashed white;
+	padding: 3px;
+	transition: 0.2s ease;
+}
+
+.catalog__item:hover {
+	border: 1px dashed #000;
+}
+
+.catalog__hero-text {
+	margin: 0;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 120%;
+	color: #1a1a1a;
+}
+
+.catalog__text-link {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.catalog__descr-text {
+	margin: 0;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 100%;
+	color: #1a1a1a;
+}
+
+.catalog__span-hero {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 129%;
+	color: #a8a8a8;
+}
+
+.catalog__span-descr {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 100%;
+	color: #ff3451;
+}
+
+.cataloge__recolor {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 100%;
+	color: #808080;
+}
+
+.catalog__btn-black {
+	padding: 19px 61px 17px 61px;
+	margin: 0;
+	border: 1px solid #1a1a1a;
+	background: #1a1a1a;
+	color: #f7f7f7;
+}
+
+.catalog__box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.catalog__btn {
+	padding: 19px 60px 17px 60px;
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+	transition: 0.3s ease;
+}
+
+.catalog__btn:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+
+.catalog__btn:active {
+	background-color: #949494;
+}
+
+/* EXPERIMENTAL */
+.menu {
+	display: flex;
+	gap: 45px;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.menu-link {
+	text-decoration: none;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 159%;
+	color: #b3b3b3;
+	transition: 0.3s ease;
+	position: relative;
+}
+
+.menu-link:hover {
+	color: #757474;
+}
+
+.menu-link.active {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 159%;
+	color: #1a1a1a;
+	transition: 0.3s ease;
+}
+.menu-link.active::after {
+	display: block;
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background-color: #1a1a1a;
+	bottom: -5px;
+	left: 0;
+	transition: width 0.3s ease;
+}
+
+.content {
+	display: none;
+}
+
+.content.active {
+	display: block;
+}
+
+.content__area {
+	padding-bottom: 80px;
+}
